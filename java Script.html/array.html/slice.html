@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script type="text/javascript">
+         var arr = ["orange", "mango", "banana", "sugar", "tea"];
+
+         console.log(arr.slice(1 , 2));
+         console.log(arr.slice(1 , 3));
+         console.log(arr.toString());
+         console.log(arr.sort());
+
+        
+         var removed = arr.splice(2, 0, "water");
+         console.log("After adding 1: " + arr );
+         console.log("<br />removed is: " + removed);
+
+         removed = arr.splice(3, 1);
+         console.log("<br />After adding 1: " + arr );
+         console.log("<br />removed is: " + removed);
+
+
+         console.log(arr.unshift("water"));
+
+
+         
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

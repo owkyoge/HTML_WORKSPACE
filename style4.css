@@ -1,0 +1,35 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  width:100%;
+      }
+
+th {
+
+  border: 1px solid rgb(228, 184, 191);
+  text-align: left;
+  width: 25%;
+  background-color: gray;
+
+  
+
+        }     
+        td {
+
+            border: 1px solid rgb(228, 184, 191);
+            text-align: left;
+            width: 25%;
+            background-color: rgb(233, 177, 177);
+          
+            
+          
+                  }     
+          
+
+tr      {
+
+         background-color: aliceblue;
+
+
+        }

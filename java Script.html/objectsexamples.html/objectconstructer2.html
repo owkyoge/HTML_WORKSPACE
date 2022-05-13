@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script type="text/javascript" lang="javascript">
+
+        function Book (name , age) {
+
+            this.name=name;
+            this.age=age;
+            
+        }
+
+        function test() {
+
+            var b = new Book('EC' , 100);
+            console.log( "Book name is  " + b.name);
+            console.log("Book age is " + b.age + " days");
+
+            
+        }
+
+    </script>
+
+</head>
+<body>
+    <form action="">
+        <input type="button" value="Click Me" onclick="test()">
+    </form>
+</body>
+</html>

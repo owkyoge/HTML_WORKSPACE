@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script type="text/javascript" lang="javascript">
+
+function Book (name , age) {
+
+this.name=name;
+this.age=age;
+this.price=0;
+this.setPrice= setPrice;
+}
+
+function test() {
+
+var b = new Book('EC' , 100);
+console.log( "Book name is  " + b.name);
+console.log("Book age is " + b.age + " days");
+console.log("Book price is  " + b.price);
+b.setPrice(100);
+console.log("Book price is  " + b.price);
+}
+
+function setPrice(amount) {
+    with(this){
+        price=amount;
+    }
+   
+    
+}
+
+
+        </script> 
+
+    </head>
+    <body>
+        <form action="">
+            <input type="button" value="click Me" onclick="test()">
+        </form>
+    </body>
+</html>

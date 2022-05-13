@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+        <p id="hi"></p>
+        <script type="text/javascript" lang="javascript">
+
+            
+
+            var ages = [32, 33, 45, 17, 50];
+
+            document.getElementById("hi").innerHTML = ages.filter(checkAdult);
+
+            function checkAdult(age){
+                return age >= 18;
+            }
+
+
+        </script>
+    </head>
+    <body>
+
+      
+        
+    </body>
+</html>

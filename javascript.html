@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="javaScript.css">
+
+        <script>
+
+            function validations() {
+
+var name = document.getElementById("nmid").value;
+                if(name == ""){
+
+                    document.getElementById("nameerrmsg").innerHTML="Name is Required111";
+                }
+               
+                
+
+            } 
+
+        </script>
+
+    </head>
+
+<body>
+   
+<form action=""  id="fm1">
+
+   
+    <table id="td1">
+        <tr>
+            <td> </td>
+            <td><input type="text" name="nm" id="nmid"></br>
+                <div id="nameerrmsg"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><lable>Age:</lable></td>
+            <td><input type="text" name="age" id="ageid"></br>
+                <div id="errmsg"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><lable>Gender:</lable></td>
+            <td><input type="radio" name="gen" id="genid" value="male">
+           <lable for="male">Male</lable></br>
+           <input type="radio" name="gen" id="genid" value="female">
+            <lable for="female">Female</lable></br>
+            <div id="errmsg"></div>
+        </td>
+        </tr>
+        <tr>
+            <td><lable>Mobile:</lable></td>
+            <td><input type="text" name="" id=""></br>
+                <div id="errmsg"></div>
+            </td>
+
+        </tr>
+        <tr>
+            <td><label>Eduction:</label></td>
+            <td><input type="checkbox" name="" id="">
+            <lable for="inter">Inter</lable></br>
+            <input type="checkbox" name="" id="">
+            <lable for="degree">Degree</lable></br>
+            <input type="checkbox" name="" id="">
+            <lable for="diploma">Diploma</lable></br>
+            <input type="checkbox" name="" id="">
+            <lable for="b-tech">B-Tech</lable></br>
+            <div id="errmsg"></div>   
+        </td>
+        </tr>
+        <tr>
+            <td><lable>Email:</lable></td>
+            <td><input type="email" name="" id=""></td>
+        </tr>
+
+    </table> </br></br></br></br>
+                  <input type="submit" value="Submit"  onclick="validations()">   
+
+</form>
+
+
+</body>
+
+</html>
